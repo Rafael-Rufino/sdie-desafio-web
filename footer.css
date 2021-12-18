@@ -1,0 +1,17 @@
+
+.flexColumn {
+	flex-direction:column;
+
+}
+
+.footer_copy {
+  background-color: #004A8C;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+	height:200px;
+	line-height:40px;
+	color:gray;
+	font-size:14px;
+}
