@@ -1,12 +1,13 @@
-/* :root{
-    font-size:40%;
-} */
+
 #page-landing{
     background-color: var(--color-primary);
 }
 
 #page-landing #container{
     color: var(--color-text-in-primary);
+    margin-top: 40px;
+    justify-content: center ;
+    align-items: center
 }
 
 .logo-container img{
@@ -96,28 +97,6 @@ button a{
     
 }
 
-/* @media (min-width: 500px) and (max-width: 803px) {
-    button {
-        margin-left: 33.1%;
-        width: 100%;
-        width: 31vw;
-        text-align: center;
-    }
-    .bnt-container{
-      
-    
-    }
-    button a{
-        text-decoration: none;
-        color: white;
-        font-weight:bold;
-        font-size:12px;
-        align-items: center;
-        
-      
-      
-    }
-} */
 @media (min-width: 300px) and (max-width: 500px){
     button a{
         text-decoration: none;
@@ -202,12 +181,6 @@ button a{
         height: 250px;
     }
     .bnt-container{
-        /* display: flex;
-        background-color: #F27E35;
-        
-        color: white;
-   
-        grid-area: texting; */
         height: 9vh;
         width: 50%;
         font-size: 16px;
